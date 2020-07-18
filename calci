@@ -1,0 +1,36 @@
+package com.code.Calculator;
+import java.util.*;
+public class calci{
+interface operations
+{
+	public int add(int a,int b);
+	public int subtract(int a,int b);
+	public int divide(int a,int b);
+	public int multiply(int a,int b);
+	public int modulus(int a,int b);
+}
+public class calci implements operations {
+
+	// Function to Add 2 numbers
+		public int add(int a,int b) {
+			return (a+b);
+		}
+		
+		// Function to Multiply 2 Numbers
+		public int multiply(int a,int b) {
+			return (a*b);
+		}
+		
+		// Function to Divide 2 Numbers
+		public int divide(int a,int b) {
+			return (a/b);
+		}
+		// Function to Divide 2 Numbers
+		public int subtract(int a,int b) {
+					return (a-b);
+				}
+				// Function to Divide 2 Numbers
+	     public int modulus(int a,int b) {
+					return (a%b);
+				}
+0 comments on commit 
